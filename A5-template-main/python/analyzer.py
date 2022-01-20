@@ -3,26 +3,27 @@ from datetime import datetime
 import lib_bamboo as bamboo
 import os
 
-................... #Deze regel nog invullen! Hoe maak je het scherm leeg?
+os.system("cls") #Deze regel nog invullen! Hoe maak je het scherm leeg?
 print("Working...")
 
-data = pd.read_excel("python/Voorbeeld_Divisie.xlsx")
+data = pd.read_excel("A5-template-main/python/Basketbal_Promotiedivisie_tussenstand.xlsx")
 data["datum"] = pd.to_datetime(data["datum"], format="%d/%m/%Y")
 data = data.sort_values("datum")
 
 #Informatievraag 1
-
-
+totalFouls = data["overtredingen"].mean()
+print(totalFouls)
 
 #Informatievraag 2
 
 
 
 #Informatievraag 3
-zwartBoek = ....... #Deze regel nog invullen! Hoe maak je een top 5?
-file3 = open("files/zwartboek.txt", "w", encoding="UTF-8")
+zwartBoek = data.sort_values("overtredingen" , ascending = False) #Deze regel nog invullen! Hoe maak je een top 5?
+top5 = zwartBoek.head(5)
+file3 = open("A5-template-main/files/zwartboek.txt", "w", encoding="UTF-8")
 file3.write(bamboo.prettify(zwartBoek, type="zwartboek"))
-................... #Deze regel nog invullen! Hoe sluit je file3?
+file3.close() #Deze regel nog invullen! Hoe sluit je file3?
 
 
 #Informatievraag 4
