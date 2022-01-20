@@ -98,31 +98,37 @@ html{
 }
 
 .container{
-    
-    /* ? */
-
+  width: 70%;
+  margin: 0 auto;
 }
-
+/*============================HEADER===================*/
 header{
     margin: 1rem 0;
 }
 
 h1{
+    display: flex;
+    justify-content: center;
     font-size: 4rem;
     line-height: 4rem;
     padding-left: 8px;
     margin: 0;
-
-    /* Font: "Faster One" */
+    font-family:"Faster One";
+}
+span{
+  color: orange;
 }
 
 .subtitle{
     margin-top: 0;
-
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.25rem;
     /* Font: Roboto, gewicht 500, schuingedrukt, grootte 1.25rem */
 }
 
-
+/*=================================MAIN============================*/
 .row{
     margin: 1.5rem 0;
     
@@ -146,6 +152,7 @@ h2{
 }
 
 p{
+  font-family: Roboto;
     /* Font: Roboto */
 }
 

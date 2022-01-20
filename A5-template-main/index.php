@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="utf-8">
-    <title>Fair play in de VOORBEELD-DIVISIE</title>
+    <title>Fair play in de Basketbal Promotiedivisie</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -18,7 +18,7 @@
 
     <div class="container">
         <header>
-            <h1>Voorbeeld Divisie</h1>
+            <h1><span>Basketbal</span> Promotiedivisie</h1>
             <p class="subtitle">Fair-play website</p>
         </header>
 
