@@ -27,7 +27,11 @@
             <div class="row">
                 <div class="box half">
                     <h2>Aantal overtredingen:</h2>
-                    <p class="number"><?php echo 0 ?></p>
+                    <p class="number"><?php echo file_get_contents("files/sum.txt") ?></p>
+                </div>
+                <div class="box half">
+                    <h2>Gemiddeld per wedstrijd:</h2>
+                    <p class="number"><?php echo file_get_contents("files/average.txt") ?></p>
                 </div>
             </div>
         </main>

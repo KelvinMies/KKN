@@ -130,6 +130,11 @@ span{
 
 /*=================================MAIN============================*/
 .row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
     margin: 1.5rem 0;
     
     /* Display instellen zodat de inhoud naast elkaar komt (met daar wat space tussen) */
@@ -138,16 +143,24 @@ span{
 .box{
     width: 100%;
     background-color: white;
+    border: solid 1px #f0f0f0;
     
     /* Border afgerond, kleur #f0f0f0 */
     /* En verder af te leiden uit het voorbeeld */
 }
 
 .box.half{
+    padding: 10px;
     width: 48%;
 }
 
 h2{
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 500;
+  font-size: 1rem;
+
     /* Font: Roboto, gewicht 500, grootte 1rem */
 }
 
@@ -157,6 +170,11 @@ p{
 }
 
 p.number{
+  display: flex;
+  justify-content: center;
+  font-family: Roboto Mono;
+  font-weight: 500;
+  font-size: 2rem;
     /* Font: Roboto Mono, gewicht 500, grootte 2rem */
 }
 
