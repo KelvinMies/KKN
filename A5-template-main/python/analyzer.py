@@ -17,12 +17,14 @@ print(totalFouls)
 file1 = open("A5-template-main/files/sum.txt" , "w" , encoding="UTF-8")
 file1.write(f"{totalFouls}")
 file1.close()
+
 #Informatievraag 2
 averageFouls = data["overtredingen"].mean()
 print(averageFouls)
 averageFile = open("A5-template-main/files/average.txt", "w", encoding="UTF-8")
 averageFile.write(f"{averageFouls}")
 averageFile.close()
+
 #Informatievraag 3
 zwartBoek = data.sort_values("overtredingen" , ascending = False) #Deze regel nog invullen! Hoe maak je een top 5?
 top5 = zwartBoek.head(5)
