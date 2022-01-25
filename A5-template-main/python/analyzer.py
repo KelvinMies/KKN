@@ -19,7 +19,7 @@ file1.write(f"{totalFouls}")
 file1.close()
 
 #Informatievraag 2
-averageFouls = data["overtredingen"].mean()
+averageFouls = data["overtredingen"].mean().round(0)
 print(averageFouls)
 averageFile = open("A5-template-main/files/average.txt", "w", encoding="UTF-8")
 averageFile.write(f"{averageFouls}")
