@@ -95,6 +95,8 @@ textarea {
 html{
     font-size: 16px;
     background-color: #f6f6f6;
+
+
 }
 
 .container{
@@ -184,16 +186,23 @@ p.number{
     border: solid 1px #f0f0f0;
     border-radius: 1rem;
 }
+.pre h2{
+  padding-top: 10px;
+}
 pre{
-    
+    display: flex;
+    justify-content: center;
     margin-top: 0.9rem;
     font-size: 0.9rem;
     font-family: Roboto Mono;
+    padding: 10px 20px 20px 20px;
     /* Font: Roboto Mono, grootte 0.9rem */
 }
 
 
 footer{
+    font-size: 15px;
+    color: gray;
     margin: 1.5rem 0;
     /* Font-size iets kleiner dan standaard, kleur grijs */
 }
