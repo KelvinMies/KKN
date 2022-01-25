@@ -26,8 +26,8 @@ averageFile.write(f"{averageFouls}")
 averageFile.close()
 
 #Informatievraag 3
-zwartBoek = data.sort_values("overtredingen" , ascending = False) #Deze regel nog invullen! Hoe maak je een top 5?
-top5 = zwartBoek.head(5)
+top5 = data.sort_values("overtredingen" , ascending = False) #Deze regel nog invullen! Hoe maak je een top 5?
+top5 = top5.head(5)
 print(top5)
 file3 = open("A5-template-main/files/zwartboek.txt", "w", encoding="UTF-8")
 file3.write(bamboo.prettify(top5, type="zwartboek"))
@@ -42,6 +42,26 @@ file3.close() #Deze regel nog invullen! Hoe sluit je file3?
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+#Informatievraag 5
+data_pivoted = data.pivot_table(
+ index="scheidsrechter",
+ columns="datum",
+ values="overtredingen",
+ aggfunc=sum
+)
+print(data_pivoted)
+file5a = file1 = open("A5-template-main/files/pivot.txt" , "w" , encoding="UTF-8")
 
 
 print("Done!")
