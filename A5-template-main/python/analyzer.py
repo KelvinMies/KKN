@@ -15,13 +15,25 @@ totalFouls = data["overtredingen"].sum()
 print(totalFouls)
 file1 = open("A5-template-main/files/sum.txt" , "w" , encoding="UTF-8")
 file1.write(f"{totalFouls}")
+file1.close()
 #Informatievraag 2
+
+
+
+
+
+
+
+
+
+
 
 
 
 #Informatievraag 3
 zwartBoek = data.sort_values("overtredingen" , ascending = False) #Deze regel nog invullen! Hoe maak je een top 5?
 top5 = zwartBoek.head(5)
+print(top5)
 file3 = open("A5-template-main/files/zwartboek.txt", "w", encoding="UTF-8")
 file3.write(bamboo.prettify(zwartBoek, type="zwartboek"))
 file3.close() #Deze regel nog invullen! Hoe sluit je file3?
