@@ -34,6 +34,9 @@
                     <p class="number"><?php echo file_get_contents("files/average.txt") ?></p>
                 </div>
             </div>
+            <div class="pre">
+                <h2>Wedstrijd met de meeste overtredingen</h2>
+                <pre class="number"> <?php echo file_get_contents("files/examples/zwartboek.txt") ?></pre>
         </main>
 
         <footer>
