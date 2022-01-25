@@ -11,9 +11,10 @@ data["datum"] = pd.to_datetime(data["datum"], format="%d/%m/%Y")
 data = data.sort_values("datum")
 
 #Informatievraag 1
-totalFouls = data["overtredingen"].mean()
+totalFouls = data["overtredingen"].sum()
 print(totalFouls)
-
+file1 = open("A5-template-main/files/sum.txt" , "w" , encoding="UTF-8")
+file1.write(f"{totalFouls}")
 #Informatievraag 2
 
 
