@@ -30,7 +30,7 @@ zwartBoek = data.sort_values("overtredingen" , ascending = False) #Deze regel no
 top5 = zwartBoek.head(5)
 print(top5)
 file3 = open("A5-template-main/files/zwartboek.txt", "w", encoding="UTF-8")
-file3.write(bamboo.prettify(zwartBoek, type="zwartboek"))
+file3.write(bamboo.prettify(top5, type="zwartboek"))
 file3.close() #Deze regel nog invullen! Hoe sluit je file3?
 
 
