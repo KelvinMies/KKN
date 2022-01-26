@@ -1,0 +1,55 @@
+     datum                       team1                       team2 uitslag  scheidsrechter  overtredingen
+13-01-2022       Olympiakos Piraeus BC                   Utah Jazz   100-2   van Kasteelen              1
+13-01-2022           Hoornsterzwaag BC            BC Broeksterwâld 127-168         de Boer              1
+12-01-2022           Aarle-Rixtel CSKA                  Fenerbahce 161-144      Passchiers              1
+12-01-2022                   Utah Jazz                BC Eckelrade  127-27 van de Weterink              1
+11-01-2022                  Fenerbahce             Vijfhuizen CSKA  86-111        van Gent              1
+11-01-2022                BC Eckelrade                 BC Nijmegen  36-153    van Beaumont              1
+11-01-2022           Aarle-Rixtel CSKA                 BC Bergen L   22-85         Mathieu              0
+10-01-2022          Los Angeles Lakers                  Fenerbahce  164-92      Passchiers              0
+10-01-2022             CSKA Groeningen                Roderesch BC  72-119         de Boer              1
+09-01-2022           Aarle-Rixtel CSKA             CSKA Groeningen   22-43   van Kasteelen              0
+09-01-2022                 BC Nijmegen                      BC Ede  21-165    van Beaumont              1
+09-01-2022                Roderesch BC                BC Veldhoven   4-151     Bierstraten              1
+09-01-2022                Roderesch BC             CSKA Groeningen  92-127     den Teuling              1
+09-01-2022                 BC Nijmegen       Olympiakos Piraeus BC    15-5      Passchiers              1
+09-01-2022             Vijfhuizen CSKA                 BC Nijmegen 136-105      Passchiers              0
+08-01-2022                  Fenerbahce            Panathinaikos BC 166-128 van de Weterink              0
+07-01-2022                      BC Ede           Aarle-Rixtel CSKA 154-161     Bierstraten              0
+07-01-2022                      BC Ede             Vijfhuizen CSKA   147-1         de Boer              1
+07-01-2022            BC Broeksterwâld                Roderesch BC  152-61     den Teuling              1
+07-01-2022                      BC Ede                BC Eckelrade  185-23        van Gent              0
+07-01-2022                   Utah Jazz Maccabi Electra Tel Aviv BC  118-45      Passchiers              1
+07-01-2022                BC Eckelrade Maccabi Electra Tel Aviv BC  180-14   van den Broek              0
+07-01-2022                BC Veldhoven                 BC Nijmegen  74-189     Bierstraten              0
+07-01-2022           Hoornsterzwaag BC             Milwaukee Bucks  199-38     den Teuling              0
+07-01-2022                 BC Nijmegen          Los Angeles Lakers 164-192        van Gent              1
+07-01-2022  Nieuw- en Sint Joosland BC                   Utah Jazz   58-77         de Boer              0
+06-01-2022             Milwaukee Bucks                BC Eckelrade  127-27         Mathieu              1
+06-01-2022                BC Veldhoven                BC Eckelrade 112-115        van Gent              0
+06-01-2022                BC Eckelrade                 BC Bergen L  171-57    van Beaumont              0
+05-01-2022           Aarle-Rixtel CSKA            Panathinaikos BC 189-146         de Boer              0
+05-01-2022           Hoornsterzwaag BC                   Utah Jazz  86-107   van Kasteelen              0
+05-01-2022             CSKA Groeningen              Kinder Bologna   1-193      Passchiers              1
+04-01-2022             CSKA Groeningen            Panathinaikos BC  179-53        van Gent              1
+04-01-2022             Vijfhuizen CSKA          Los Angeles Lakers 113-172   van Kasteelen              1
+04-01-2022             Vijfhuizen CSKA              Kinder Bologna   16-38        van Gent              1
+04-01-2022                Roderesch BC           Hoornsterzwaag BC 151-127      Passchiers              1
+04-01-2022                Roderesch BC                   Utah Jazz  151-57    van Beaumont              1
+03-01-2022                  Fenerbahce       Olympiakos Piraeus BC  73-125         de Boer              1
+02-01-2022              Kinder Bologna            BC Broeksterwâld 135-134      Passchiers              0
+01-01-2022                  Fenerbahce                 BC Bergen L  54-157         de Boer              1
+01-01-2022                      BC Ede       Olympiakos Piraeus BC  129-82      Passchiers              0
+01-01-2022  Nieuw- en Sint Joosland BC                 BC Nijmegen 134-130     den Teuling              1
+01-01-2022                   Utah Jazz                BC Veldhoven  112-63     den Teuling              1
+01-01-2022 Maccabi Electra Tel Aviv BC            Panathinaikos BC 162-150    van Beaumont              1
+31-12-2021       Olympiakos Piraeus BC              Kinder Bologna  47-133         de Boer              0
+31-12-2021             CSKA Groeningen  Nieuw- en Sint Joosland BC  118-96         Mathieu              1
+31-12-2021              Kinder Bologna                 BC Bergen L  20-171   van Kasteelen              1
+31-12-2021            Panathinaikos BC              Kinder Bologna   38-45         Mathieu              1
+31-12-2021             Vijfhuizen CSKA           Hoornsterzwaag BC  72-134 van de Weterink              0
+31-12-2021            Panathinaikos BC                Roderesch BC  93-151         de Boer              0
+30-12-2021           Hoornsterzwaag BC       Olympiakos Piraeus BC  132-82     Bierstraten              0
+30-12-2021                 BC Bergen L              Kinder Bologna  54-134         de Boer              0
+30-12-2021 Maccabi Electra Tel Aviv BC           Hoornsterzwaag BC  194-68   van Kasteelen              0
+30-12-2021            Panathinaikos BC           Hoornsterzwaag BC  129-82     den Teuling              1

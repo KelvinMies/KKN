@@ -1,15 +1,17 @@
+from zlib import DEFLATED
 from numpy import average
 import pandas as pd
-from datetime import datetime
+from datetime import date, datetime
 import lib_bamboo as bamboo
 import os
+from datetime import timedelta
 
 os.system("cls") #Deze regel nog invullen! Hoe maak je het scherm leeg?
 print("Working...")
 
 data = pd.read_excel("A5-template-main/python/Basketbal_Promotiedivisie_tussenstand.xlsx")
-data["datum"] = pd.to_datetime(data["datum"], format="%d/%m/%Y")
-data = data.sort_values("datum")
+data["datum"] = pd.to_datetime(data["datum"], format="%d/%m/%Y",)
+data = data.sort_values("datum", ascending=False)
 
 #Informatievraag 1
 totalFouls = data["overtredingen"].sum()
@@ -35,7 +37,17 @@ file3.close() #Deze regel nog invullen! Hoe sluit je file3?
 
 
 #Informatievraag 4
-
+ereNummer = 2
+latestDate = data["datum"].max()
+latestMin = latestDate - timedelta(days=14)
+filter = (data["overtredingen"] < ereNummer)
+data_filtered = data[filter]
+filter = (data_filtered["datum"] >= latestMin)
+data_filtered = data_filtered[filter]
+print(data_filtered)
+file4 = open("A5-template-main/files/eregalerij.txt", "w", encoding="UTF-8")
+file4.write(bamboo.prettify(data_filtered, type="eregalerij"))
+file4.close() 
 
 
 
@@ -54,14 +66,14 @@ file3.close() #Deze regel nog invullen! Hoe sluit je file3?
 
 
 #Informatievraag 5
-data_pivoted = data.pivot_table(
- index="scheidsrechter",
- columns="datum",
- values="overtredingen",
- aggfunc=sum
-)
-print(data_pivoted)
-file5a = file1 = open("A5-template-main/files/pivot.txt" , "w" , encoding="UTF-8")
+#data_pivoted = data.pivot_table(
+ #index="scheidsrechter",
+ #columns="datum",
+ #values="overtredingen",
+ #aggfunc=sum
+#)
+#print(data_pivoted)
+#file5a = file1 = open("A5-template-main/files/pivot.txt" , "w" , encoding="UTF-8")
 
 
 print("Done!")

@@ -31,7 +31,7 @@ def prettify(dataframe, type="", columns=None):
     
     index = True
     if type == "zwartboek" or type == "eregalerij":
-        columns = ["datum", "team1", "team2", "uitslag", "scheidsrechter"]
+        columns = ["datum", "team1", "team2", "uitslag", "scheidsrechter", "overtredingen"]
         if type == "zwartboek":
             columns.append("overtredingen")
             
