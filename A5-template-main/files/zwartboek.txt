@@ -1,6 +1,6 @@
-     datum             team1                       team2 uitslag scheidsrechter  overtredingen  overtredingen
-13-12-2021  BC Broeksterwâld Maccabi Electra Tel Aviv BC   65-82  van den Broek             98             98
-14-12-2021 Aarle-Rixtel CSKA                Roderesch BC   22-37    Bierstraten             92             92
-10-01-2022         Utah Jazz              Kinder Bologna  159-83   van Beaumont             92             92
-25-12-2021      Roderesch BC            BC Broeksterwâld  78-164        Mathieu             92             92
-03-01-2022   Milwaukee Bucks                      BC Ede  200-77    Bierstraten             89             89
+     datum             team1                       team2 uitslag scheidsrechter  overtredingen
+13-12-2021  BC Broeksterwâld Maccabi Electra Tel Aviv BC   65-82  van den Broek             98
+14-12-2021 Aarle-Rixtel CSKA                Roderesch BC   22-37    Bierstraten             92
+10-01-2022         Utah Jazz              Kinder Bologna  159-83   van Beaumont             92
+25-12-2021      Roderesch BC            BC Broeksterwâld  78-164        Mathieu             92
+03-01-2022   Milwaukee Bucks                      BC Ede  200-77    Bierstraten             89
