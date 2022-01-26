@@ -185,6 +185,7 @@ p.number{
     background-color: white;
     border: solid 1px #f0f0f0;
     border-radius: 1rem;
+    margin-bottom: 20px;
 }
 .pre h2{
   padding-top: 10px;
